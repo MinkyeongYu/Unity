@@ -1,0 +1,15 @@
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.csproj.AssemblyReference.cache
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.AssemblyInfoInputs.cache
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.AssemblyInfo.cs
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.csproj.CoreCompileInputs.cache
+D:\unity_rookiss_ch.2\Unity\vsCode\bin\Debug\net7.0\vsCode.exe
+D:\unity_rookiss_ch.2\Unity\vsCode\bin\Debug\net7.0\vsCode.deps.json
+D:\unity_rookiss_ch.2\Unity\vsCode\bin\Debug\net7.0\vsCode.runtimeconfig.json
+D:\unity_rookiss_ch.2\Unity\vsCode\bin\Debug\net7.0\vsCode.dll
+D:\unity_rookiss_ch.2\Unity\vsCode\bin\Debug\net7.0\vsCode.pdb
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.dll
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\refint\vsCode.dll
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.pdb
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\vsCode.genruntimeconfig.cache
+D:\unity_rookiss_ch.2\Unity\vsCode\obj\Debug\net7.0\ref\vsCode.dll
