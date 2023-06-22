@@ -51,12 +51,12 @@ class Map2 {
                     continue;
                 // 0~(n-1 = 1) 중 랜덤하게 값 전달
                 // 0이 나왔으면, 오른쪽으로 한칸 뚫기
-                if(rand.Next(0,2) == 0) 
-                {
-                    _tile[y, x+1] = TileType.Empty;
-                }
-                // 1이 나왔으면, 아래로 한칸 뚫기
-                else _tile[y+1,x] = TileType.Empty;
+                // if(rand.Next(0,2) == 0) 
+                // {
+                //     _tile[y, x+1] = TileType.Empty;
+                // }
+                // // 1이 나왔으면, 아래로 한칸 뚫기
+                // else _tile[y+1,x] = TileType.Empty;
             }
         }
     }
