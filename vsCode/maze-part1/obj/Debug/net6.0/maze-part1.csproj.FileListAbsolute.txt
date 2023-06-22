@@ -1,0 +1,15 @@
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/bin/Debug/net6.0/maze-part1
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/bin/Debug/net6.0/maze-part1.deps.json
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/bin/Debug/net6.0/maze-part1.runtimeconfig.json
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/bin/Debug/net6.0/maze-part1.dll
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/bin/Debug/net6.0/maze-part1.pdb
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.csproj.AssemblyReference.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.AssemblyInfoInputs.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.AssemblyInfo.cs
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.csproj.CoreCompileInputs.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.dll
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/refint/maze-part1.dll
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.pdb
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/maze-part1.genruntimeconfig.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/maze-part1/obj/Debug/net6.0/ref/maze-part1.dll
