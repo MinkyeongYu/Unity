@@ -1,7 +1,7 @@
 ﻿class Program {
     static void Main(string[] args){
-        Map2 map = new Map2();
-        map.Initialize(25);
+        PlayerMove pm = new PlayerMove();
+        pm.Initialize(25);
 
         int cnt = 0;
 

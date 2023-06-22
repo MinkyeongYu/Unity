@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-class Map2 {
+class PlayerMove {
     public int[] _data = new int[25];
     public TileType[,] _tile;
     public int _size;
