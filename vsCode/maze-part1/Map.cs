@@ -12,7 +12,6 @@ class Map {
     {
         Empty,
         Wall,
-
     }
     // map size를 인자로 받아, 초기화해줌. size는 무조건 홀수여야 함.
     public void Initialize(int size) {
