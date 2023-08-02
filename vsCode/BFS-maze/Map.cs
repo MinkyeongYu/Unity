@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-class Map2 {
+class Map {
     // 값을 외부에서 접근해서 수정하지 못하도록 set을 private으로 설정. 
     public TileType[,] Tile {get; private set;}
     public int Size {get; private set;}

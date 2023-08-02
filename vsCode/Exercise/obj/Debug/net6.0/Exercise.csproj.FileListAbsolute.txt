@@ -1,0 +1,15 @@
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/bin/Debug/net6.0/Exercise
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/bin/Debug/net6.0/Exercise.deps.json
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/bin/Debug/net6.0/Exercise.runtimeconfig.json
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/bin/Debug/net6.0/Exercise.dll
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/bin/Debug/net6.0/Exercise.pdb
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.csproj.AssemblyReference.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.AssemblyInfoInputs.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.AssemblyInfo.cs
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.csproj.CoreCompileInputs.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.dll
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/refint/Exercise.dll
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.pdb
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/Exercise.genruntimeconfig.cache
+/Users/yumingyeong/Desktop/Unity/vsCode/Exercise/obj/Debug/net6.0/ref/Exercise.dll

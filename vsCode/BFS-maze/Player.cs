@@ -29,6 +29,57 @@ class Player {
         PosY = posY;
         PosX = posX;
         _m = map;
+
+        // RightHand();
+        BFS();
+    }
+    async void BFS() {
+        int[] deltaY = new int[] {-1, 0, 1, 0};
+        int[] deltaX = new int[] {0, -1, 0, 1};
+        bool[,] found = new bool[_m.Size, _m.Size];
+        Pos[,] parent = new Pos[_m.Size, _m.Size];
+        Queue<Pos> q = new Queue<Pos>();
+        // Pos 생성자 호출하여 Pos의 변수 Y,X를 초기화해주고, initialize하면서 받아온 값 큐에 삽입
+        q.Enqueue(new Pos(PosY, PosX));
+        found[PosY, PosX] = true;
+        parent[PosY, PosX] = new Pos[PosY, PosX];
+
+        while(q.Count>0) {
+            Pos pos = q.Dequeue();
+            int nowY = pos.Y;
+            int nowX = pos.X;
+
+            for(int i = 0; i < 4; i++) {
+                int nextY = nowY + deltaY[i];
+                int nextX = nowX + deltaX[i];
+                
+                if(nextX < 0 || nextX >= _m.Size || nextY < 0 || nextY >= _m.Size) continue;
+                if(_m.Tile[nextY, nextX == _m.Tile.Wall]) continue;
+                if(found[nextY, nextX]) continue;
+                // 방문하지 않았거나, 범위를 벗어나지 않았거나, 갈 수 있는 길이라면 큐에 삽입한다.
+                q.Enqueue(new Pos(nextY, nextX));
+                found[nextY, nextX] = true; 
+                parent[nextY, nextX] = new Pos(nowY, nowX);
+            }
+        }
+        int y = _m.DestY;
+        int x = _m.DestX;
+        // 현재 좌표가 목적지가 아닐 때에만 반복
+        // 맨 끝 좌표(목적지)부터 시작좌표까지 거슬러 올라가며 부모를 추적하는 과정. 최단 길찾기 때문에 필요함.
+        // 첫번째 검토 : 목적지와 목적지의 부모좌표 비교 => 당연히 좌표가 다름. 따라서, 목적지의 부모 좌표를 y,x에 다시 대입함. 반복.
+        while(parent[y,x].Y != y || parent[y, x].X != x) {
+            _points.Add(new Pos(y, x));
+            Pos pos = parent[y,x];
+            y = pos.Y;
+            x = pos.X;
+        }
+        // 시작점은 while문에서 추가 안되기 때문에 따로 추가함.
+        _points.Add(new Pos(y, x));
+        // list의 순서를 뒤집어서 시작점부터 목적지로 이동하게 함.
+        _points.Reverse();
+    }
+    // 우수법 (오른손 법칙)
+    void RightHand() {
         // 현재 바라보고 있는 방향을 기준으로, 좌표 변화를 나타내는 배열
         // 위(map.Tile[PosY-1, ]), 아래([map.Tile[PosY+1, ]])
         int[] frontY = new int[] {-1, 0, 1, 0};

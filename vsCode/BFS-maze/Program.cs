@@ -1,6 +1,6 @@
 ﻿class Program {
     static void Main(string[] args){
-        Map2 map = new Map2();
+        Map map = new Map();
         Player _player = new Player();
         map.Initialize(25, _player);
         //  player 시작지점과 목표지점 지정하기
